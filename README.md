@@ -4,6 +4,7 @@ By Daniel Medina
 ![Workflow Status](https://github.com/medinardaniel/mywebsite/actions/workflows/ci-cd.yml/badge.svg)
 
 Deployed Website: https://mywebsite-fxjm0b1fc-daniels-projects-a44d4a0e.vercel.app
+Video demo: https://youtu.be/lYY7gl3Pl0A
 
 ## Website Functionality
 

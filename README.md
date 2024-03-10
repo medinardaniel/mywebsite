@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio Website
+By Daniel Medina
+Deployed Website: https://mywebsite-fxjm0b1fc-daniels-projects-a44d4a0e.vercel.app
+
+## Website Functionality
+
+This project is a website developed using Next.js, a React framework for building server-side rendered applications. The website showcases various projects developed by Daniel Medina. It includes a main page displaying information about Daniel, a list of his projects, and details about each project.
+
+### Features:
+- Main page with information about Daniel Medina.
+- List of projects with brief descriptions.
+- Each project has its own page with detailed information.
+
+## GitHub Actions
+
+GitHub Actions are used in this project for Continuous Integration (CI) and Continuous Deployment (CD). The CI workflow runs tests and linters whenever code changes are pushed to the main branch. The CD workflow automatically deploys the changes to the hosting platform.
+
+### CI/CD Workflow:
+- Lints the code to check for errors and maintain consistency.
+- Automatically deploys the updated code to the hosting platform.
+- Triggers deployment whenever changes are pushed to the main branch.
+
+## Hosting and Deployment
+
+The website is hosted and deployed using Vercel, a cloud platform for hosting static and serverless websites. Vercel provides a seamless deployment experience with features like automatic scaling, preview deployments, and custom domains.
+
+### Deployment Process:
+- Code changes are automatically deployed to Vercel when pushed to the main branch.
+- Vercel integrates with GitHub Actions for seamless CI/CD pipelines.
+- Each deployment is versioned and can be easily rolled back if needed.
 
 ## Getting Started
 
-First, run the development server:
+To run the project locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository: `git clone <repository-url>`
+2. Install dependencies: `npm install`
+3. Run the development server: `npm run dev`
+4. Open your browser and navigate to `http://localhost:3000` to view the website.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contributing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Contributions to this project are welcome! If you have any ideas for improvements or feature requests, feel free to open an issue or submit a pull request.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## License
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the [MIT License](LICENSE).

@@ -1,0 +1,60 @@
+/* projects.css */
+
+.projects-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.section-title {
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: #000;
+}
+
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px; /* Adjust based on your preference */
+    height: 200px; /* Makes the card square */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.project-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.project-link {
+    display: inline-block;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+
+    /* Additional styles for hover state */
+    &:hover {
+        background-color: #0056b3;
+    }
+}
+

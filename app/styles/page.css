@@ -1,0 +1,38 @@
+/* page.css */
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Keeps content aligned to the top */
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 10vh; /* Adjusted for closer to top */
+    background-color: #f0f0f0;
+}
+
+.title {
+    margin-top: 20px; /* Adjusted for less space from the top */
+    font-size: 64px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center; /* Ensures the title is centered */
+}
+
+.subtitle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Keeps the subtitle centered under the title */
+    justify-content: center;
+    width: 60%; /* Reduced width */
+    margin: 0 auto; /* Centers the container horizontally */
+    padding-top: 10px; /* Space between title and subtitle */
+}
+
+.subtitle {
+    font-size: 24px;
+    color: #000000;
+    text-align: center; /* Ensures the subtitle text is centered */
+    word-wrap: break-word; /* Ensures text wraps within container */
+    margin-top: 10px; /* Space between subtitle container and text */
+}

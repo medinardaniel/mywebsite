@@ -7,13 +7,13 @@
     justify-content: flex-start; /* Keeps content aligned to the top */
     min-height: 100vh;
     width: 100%;
-    padding-top: 10vh; /* Adjusted for closer to top */
+    padding-top: 0vh; /* Adjusted for closer to top */
     background-color: #f0f0f0;
 }
 
 .title {
     margin-top: 20px; /* Adjusted for less space from the top */
-    font-size: 64px;
+    font-size: 42px;
     font-weight: bold;
     color: #000000;
     text-align: center; /* Ensures the title is centered */
@@ -30,9 +30,9 @@
 }
 
 .subtitle {
-    font-size: 24px;
+    font-size: 18px;
     color: #000000;
     text-align: center; /* Ensures the subtitle text is centered */
     word-wrap: break-word; /* Ensures text wraps within container */
-    margin-top: 10px; /* Space between subtitle container and text */
+    margin-top: 0px; /* Space between subtitle container and text */
 }

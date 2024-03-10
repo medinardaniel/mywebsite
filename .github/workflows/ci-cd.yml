@@ -1,0 +1,35 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: '14' # Specify the Node.js version
+
+    - name: Install Dependencies
+      run: npm install
+
+    - name: Run Tests
+      run: npm test
+
+    - name: Build
+      run: npm run build
+
+    # Add deployment step, e.g., to Vercel, Heroku, etc.
+    - name: Deploy to Vercel
+      uses: amondnet/vercel-action@v20
+      with:
+        vercel-token: ${{ secrets.VERCEL_TOKEN }} # Set this in your repo settings
+        vercel-org-id: ${{ secrets.VERCEL_ORG_ID }} # Set this in your repo settings
+        vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }} # Set this in your repo settings

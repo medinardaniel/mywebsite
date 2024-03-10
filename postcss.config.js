@@ -1,9 +1,7 @@
 module.exports = {
   plugins: {
-    'postcss-preset-env': {
-      stage: 1, // This enables CSS nesting among other features
-    },
     tailwindcss: {},
+    'postcss-nesting': {}, // Make sure this line is included
     autoprefixer: {},
   },
 };

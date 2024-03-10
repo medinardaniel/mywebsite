@@ -1,6 +1,6 @@
 # Portfolio Website
 By Daniel Medina
-![Workflow Status](https://github.com/medinardaniel/mywebsite/.github/workflows/ci-cd.yml/badge.svg)
+![Workflow Status](https://github.com/medinardaniel/mywebsite/github/workflows/ci-cd.yml/badge.svg)
 Deployed Website: https://mywebsite-fxjm0b1fc-daniels-projects-a44d4a0e.vercel.app
 
 ## Website Functionality
